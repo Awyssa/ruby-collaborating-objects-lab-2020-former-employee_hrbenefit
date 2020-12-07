@@ -37,7 +37,7 @@ class Artist
     songs.each {|song| puts song.name}
   end
 
-  def add_song(name)
-    @name == name
+  def add_song(song)
+    song.artist = self
   end
 end
