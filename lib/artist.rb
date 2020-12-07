@@ -38,6 +38,6 @@ class Artist
   end
 
   def add_song(name)
-    @name =- name
+    @name == name
   end
 end
