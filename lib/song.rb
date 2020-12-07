@@ -32,4 +32,7 @@ class Song
     @@all << self
     self
   end
+
+  def add_song(name)
+    name = @name
 end
