@@ -35,4 +35,5 @@ class Song
 
   def add_song(name)
     @name = name
+  end
 end
